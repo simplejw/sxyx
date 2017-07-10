@@ -42,18 +42,18 @@ return array(
 			),
 		),
 		'request' => array(
-        	'class' => 'application.components.WebHttpRequest',
-        	'enableCsrfValidation' => false,
-        	'csrfUrl' => array(
-        		'/ajax/upfile',
-        	),
-        ),
+			'class' => 'application.components.WebHttpRequest',
+			'enableCsrfValidation' => false,
+			'csrfUrl' => array(
+				'/ajax/upfile',
+			),
+		),
 
 		'wechat' => array(
-    		'class' => 'application.vendor.oauth.WeChat',
-    		'appID' => '111',
-    		'appSecret' => '222',
-        ),
+			'class' => 'application.vendor.oauth.WeChat',
+			'appID' => '111',
+			'appSecret' => '222',
+		),
 
 		'errorHandler'=>array(
 			'errorAction'=>'site/error',
